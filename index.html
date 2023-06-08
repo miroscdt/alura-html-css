@@ -1,16 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <header>
-      <h1 class="titulo-principal">Barbería Alura</h1>
-    </header>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mukta&family=Reem+Kufi+Ink&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <header>
+    <div class="caja">
+        <h1><img class="img" src="img/logo.png"></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+  <main>
     <img id="banner" src="./img/banner.jpg" />
     <div class="principal">
       <h2 class="titulo-centralizado">Sobre la Barbería Alura</h2>
@@ -21,13 +40,9 @@
         destaque en la ciudad y conquista nuevos clientes diariamente.
       </p>
       <p id="mision">
-        <em
-          >Nuestra misión es:
-          <strong
-            >"Proporcionar autoestima y calidad de vida a nuestros
-            clientes"</strong
-          >.</em
-        >
+        <em>Nuestra misión es:
+          <strong>"Proporcionar autoestima y calidad de vida a nuestros
+            clientes"</strong>.</em>
       </p>
       <p>
         Ofrecemos profesionales experimentados que están constantemente
@@ -39,13 +54,41 @@
     </div>
     <div class="diferenciales">
       <h2>Diferenciales</h2>
-      <ul>
+      <ul class="stuff">
         <li class="items">Atención personalizada a los clientes</li>
         <li class="items">Espacio diferenciado</li>
         <li class="items">Localización</li>
         <li class="items">Profesionales calificados</li>
       </ul>
-      <img src="./img/diferenciales.jpg" class="imagenDiferenciales" />
+      <table>
+        <thead>
+            <tr>
+                <th>Día</th>
+                <th>Horario</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lunes</td>
+                <td>8h ~ 20h</td>
+            </tr>
+            <tr>
+                <td>Miércoles</td>
+                <td>8h ~ 20h</td>
+            </tr>
+            <tr>
+                <td>Viernes</td>
+                <td>8h ~ 20h</td>
+            </tr>
+    </table>
+    <img src="./img/diferenciales.jpg" class="imagenDiferenciales" />
     </div>
-  </body>
+  </main>
+</body>
+
+<footer>
+  <img class="img" src="img/logo-blanco.png">
+  <p class="copyright">&copy Copyright Barbería Alura - 2023</p>
+</footer>
+
 </html>

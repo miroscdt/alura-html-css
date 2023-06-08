@@ -1,3 +1,12 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Reem Kufi Ink', sans-serif;
+}
+.img {
+    width: 120px;
+    height: auto;
+  }
 header {
     background-color: #BBBBBB;
     padding: 20px 0;
@@ -31,6 +40,11 @@ nav a:hover {
     color: #C78C19;
     text-decoration: underline;
 }
+
+
+
+
+
 .productos li:hover {
     border-color: #C78C19;
 }
@@ -56,6 +70,11 @@ nav a:hover {
         border: 2px solid #000000;
         border-radius: 10px;
 }
+
+
+
+
+
 
 .productos h2 {
     font-size: 30px;

@@ -1,6 +1,48 @@
 body {
-
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Reem Kufi Ink', sans-serif;
 }
+.img {
+    width: 120px;
+    height: auto;
+  }
+  
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top:110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+
+
 
 .diferenciales{
     background: #FFFFFF;
@@ -12,25 +54,22 @@ h2{
 }
 
 .items{
-    font-style: italic;
+    font-size: 20px;
 }
 
 .principal{
-    background: #CCCCCC;
+    background: #FFFFFF;
     padding: 20px;
 }
-ul{
+.stuff{
     display: inline-block;
     vertical-align: top;
     width: 20%;
     margin-right: 15%;
 }
+
 #banner{
     width:100%;
-}
-
-h1{
-    text-align: center;
 }
 
 p{
@@ -38,22 +77,44 @@ p{
 }
 
 em strong{
-    color:red;
+    color:rgb(112, 65, 34);
 }
 
 #mision{
     font-size: 20px;
 }
 .imagenDiferenciales{
-    width: 30%;
-    border-right-width: 200px;
-    margin-left: 300px;
-    margin-top: 30px;
+    align-items: center;
+    width: 22%;
+    margin-left: 16px;
+    margin-top: 5px;
 
 }
-.titulo-principal {
-    padding-left: 30px;
+
+table {
+  float: right;
+  margin-right: 80px;
 }
-.titulo-centralizado{
+
+thead {
+    background: rgb(112, 65, 34);
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+
+footer {
     text-align: center;
+    background: url(img/bg.jpg);
+    padding: 40px;
+}
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
 }

@@ -1,3 +1,12 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Reem Kufi Ink', sans-serif;
+}
+.img {
+    width: 120px;
+    height: auto;
+  }
 header {
     background-color: #BBBBBB;
     padding: 20px 0;
@@ -31,6 +40,10 @@ nav a:hover {
     color: #C78C19;
     text-decoration: underline;
 }
+
+
+
+
 
 main {
     width: 940px;
@@ -67,31 +80,18 @@ form label, form legend{
     font-size: 18px;
     font-weight: bold;
     color:white;
-    background: orange;
+    background: #555555;
     border:none;
     border-radius: 5px;
     transition: 1s all;
     cursor:pointer;
 }
 .enviar:hover {
-    background: darkorange;
-    transform: scale(1.2);
+    background: #C78C19;
+    transform: scale(1.1);
 }
 
-table {
-    margin: 40px 40px;
-}
 
-thead {
-    background: #555555;
-    color: white;
-    font-weight: bold;
-}
-
-td, th {
-    border: 1px solid #000000;
-    padding: 8px 15px;
-}
 footer {
     text-align: center;
     background: url(img/bg.jpg);
